@@ -1,12 +1,7 @@
 name: Build and compile for macOS
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  workflow_dispatch
 
 jobs:
   build:
@@ -32,7 +27,7 @@ jobs:
       run: dotnet publish --configuration Release --output ./publish
 
     - name: Archive build output
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3  # Updated from v2 to v3
       with:
         name: macos-build
         path: ./publish
