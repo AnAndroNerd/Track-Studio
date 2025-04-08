@@ -10,8 +10,6 @@ jobs:
     strategy:
       matrix:
         dotnet: [ '6.0.x', '8.0.x' ]
-    name: Dotnet ${{ matrix.dotnet }} sample
-
 
     steps:
     - name: Checkout repository
