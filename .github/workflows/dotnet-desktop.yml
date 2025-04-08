@@ -7,6 +7,11 @@ jobs:
   build:
     name: Build for macOS
     runs-on: macos-latest
+    strategy:
+      matrix:
+        dotnet: [ '6.0.x', '8.0.x' ]
+    name: Dotnet ${{ matrix.dotnet }} sample
+
 
     steps:
     - name: Checkout repository
@@ -15,8 +20,8 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '6.0.x 8.0.x'
-
+          dotnet-version: ${{ matrix.dotnet }}
+        
     - name: Install dependencies
       run: dotnet restore
 
