@@ -24,10 +24,10 @@ jobs:
       run: dotnet restore
 
     - name: Build
-      run: dotnet build --configuration Release --output ./build
+      run: dotnet build Track\ Studio.sln --configuration Release --output ./build
 
     - name: Publish
-      run: dotnet publish --configuration Release --output ./publish
+      run: dotnet publish Track\ Studio.sln --configuration Release --output ./publish
 
     - name: Archive build output
       uses: actions/upload-artifact@v4 #once again, fuck you vibes based coding
