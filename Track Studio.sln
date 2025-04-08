@@ -3,23 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrackStudio", "Track Studio\TrackStudio.csproj", "{58480072-DD6D-461F-AC93-5DD56C4F6AC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrackStudio", "Track Studio/TrackStudio.csproj", "{58480072-DD6D-461F-AC93-5DD56C4F6AC3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Updater", "Updater\Updater.csproj", "{A1D830E8-2A3B-4FE3-AF15-38FF2900446F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Updater", "Updater/Updater.csproj", "{A1D830E8-2A3B-4FE3-AF15-38FF2900446F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapStudio.UI", "MapStudio.UI\MapStudio.UI.csproj", "{BCE75338-6718-4B7D-982A-BB8AA3B2DD39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapStudio.UI", "MapStudio.UI/MapStudio.UI.csproj", "{BCE75338-6718-4B7D-982A-BB8AA3B2DD39}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GLFrameworkEngine", "GLFrameworkEngine\GLFrameworkEngine.csproj", "{18282923-CF8E-44B1-AB60-822E4EB5D81C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GLFrameworkEngine", "GLFrameworkEngine/GLFrameworkEngine.csproj", "{18282923-CF8E-44B1-AB60-822E4EB5D81C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toolbox.Core", "Toolbox.Core\Toolbox.Core.csproj", "{F72CE21C-7B9E-47FC-AEA6-3DD7100690A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toolbox.Core", "Toolbox.Core/Toolbox.Core.csproj", "{F72CE21C-7B9E-47FC-AEA6-3DD7100690A7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectXTexLibrary", "Plugins\DirectXTexLibrary\DirectXTexLibrary.csproj", "{6F301ECC-2B02-4415-9197-FB8828B8D79F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectXTexLibrary", "Plugins/DirectXTexLibrary\DirectXTexLibrary.csproj", "{6F301ECC-2B02-4415-9197-FB8828B8D79F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapStudio.ImageCompressor", "Plugins\MapStudio.ImageCompressor\MapStudio.ImageCompressor.csproj", "{BF380CC4-B827-452A-8AE5-3F0AC5927145}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapStudio.ImageCompressor", "Plugins/MapStudio.ImageCompressor/MapStudio.ImageCompressor.csproj", "{BF380CC4-B827-452A-8AE5-3F0AC5927145}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TurboLibrary", "Plugins\TurboLibrary\TurboLibrary.csproj", "{EF47FFE4-E9F4-417B-8B03-BE2F820F11BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TurboLibrary", "Plugins/TurboLibrary/TurboLibrary.csproj", "{EF47FFE4-E9F4-417B-8B03-BE2F820F11BA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CafeLibrary", "Plugins\CafeLibrary\CafeLibrary.csproj", "{A486B890-700A-40FC-B929-9B7135DA05DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CafeLibrary", "Plugins/CafeLibrary/CafeLibrary.csproj", "{A486B890-700A-40FC-B929-9B7135DA05DF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{44D34303-323A-4291-B8E4-E2B12ACA17C9}"
 EndProject
