@@ -27,7 +27,7 @@ jobs:
       run: dotnet publish --configuration Release --output ./publish
 
     - name: Archive build output
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4 #once again, fuck you vibes based coding
       with:
         name: macos-build
         path: ./publish
