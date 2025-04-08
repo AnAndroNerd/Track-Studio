@@ -12,10 +12,15 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Setup .NET
+    - name: Setup .NET 6.0.x
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '6.0.x 8.0.x'
+        dotnet-version: '6.0.x'
+
+    - name: Setup .NET 8.0.x
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
 
     - name: Install dependencies
       run: dotnet restore
@@ -27,7 +32,7 @@ jobs:
       run: dotnet publish --configuration Release --output ./publish
 
     - name: Archive build output
-      uses: actions/upload-artifact@v4 #once again, fuck you vibes based coding
+      uses: actions/upload-artifact@v4
       with:
         name: macos-build
         path: ./publish
