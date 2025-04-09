@@ -21,7 +21,7 @@ jobs:
         dotnet-version: '6.0' # .NET 6 for specific projects
     
     - name: Restore dependencies for .NET 7 projects
-      run: dotnet restore
+      run: dotnet restore --exclude GLFrameWorkEngine/GLFrameWorkEngine.csproj --exclude MapStudio.UI/MapStudio.UI.csproj --exclude Toolbox.Core/Toolbox.Core.csproj
 
     - name: Restore dependencies for .NET 6 projects
       run: dotnet restore --project GLFrameWorkEngine/GLFrameWorkEngine.csproj
