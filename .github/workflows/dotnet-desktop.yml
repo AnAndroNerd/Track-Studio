@@ -19,6 +19,9 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: '6.0' # .NET 6 for specific projects
+
+    - name: nuget
+      uses: NuGet/setup-nuget@v1.0.5
     
     - name: Restore dependencies for .NET 7 projects
       run: dotnet restore Track Studio.sln #fuck you vibes based coding
